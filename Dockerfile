@@ -2,10 +2,10 @@
 # Docker Hello World image on a WHITE background
 # Adapted from https://github.com/docker/dockercloud-hello-world
 #
-# (c) 2017 - Steven Cooney
+# (c) 2018 - Steven Cooney
 ###################################################################
 
-FROM alpine:3.4
+FROM alpine:3.7
 
 RUN apk --update --no-cache add nginx php5-fpm && \
     mkdir -p /run/nginx
